@@ -5,7 +5,7 @@ import org.springframework.stereotype.Service;
 
 @Service
 @ConditionalOnProperty(name = "cake.flavor.syrup", havingValue ="Chocolate")
-public class ChoclateSyrup implements Syrup{
+public class ChocolateSyrup implements Syrup{
 
     @Override
     public void getSyrupType() {
